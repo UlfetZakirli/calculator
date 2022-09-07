@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Inter:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: rgb(58,71,180); */
+    /* background: linear-gradient(45deg, rgb(58,71,180,1) 0%, rgb(252,50,90,1)); */
+
+
+}
+
+.container {
+    background-color: #000;
+    min-width: 400px;
+    min-height: 400px;
+    border-radius: 5px;
+}
+
+#display {
+    
+    font-size: 35px;
+    color: white;
+    text-align: right;
+    /* background-color: rgb(39, 36, 36); */
+    padding: 35px 15px;
+    border-radius: 5px;
+    background-color: #000;
+    height: 120px;
+
+
+}
+.buttons {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    border-left: 1px solid white;
+    border-bottom: 1px solid #000;
+}
+
+.button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: 1;
+    min-height: 90px;
+    background-color: #505050;
+    border:  1px solid #000; 
+    cursor: pointer;
+    font-size: 27px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+.button:hover {
+    color: white;
+    background-color: #6450b1;
+}
+
+.p {
+    grid-column: 2 span;
+}
+.right{
+    background-color: #FF9500;
+}
+.top{
+    background-color: rgb(58, 51, 51);
+}
